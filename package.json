@@ -1,0 +1,15 @@
+{
+  "name": "thameez-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio with contact form email automation",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.13",
+    "dotenv": "^16.4.5"
+  },
+  "engines": { "node": ">=18" }
+}
